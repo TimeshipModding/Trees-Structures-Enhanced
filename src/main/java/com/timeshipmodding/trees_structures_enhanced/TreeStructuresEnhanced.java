@@ -1,6 +1,7 @@
 package com.timeshipmodding.trees_structures_enhanced;
 
 import com.mojang.logging.LogUtils;
+import com.timeshipmodding.trees_structures_enhanced.block.registry.ModBlocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,8 @@ public class TreeStructuresEnhanced {
         // Register Forge Event Bus
         MinecraftForge.EVENT_BUS.register(this);
 
+        // Register the registry classes
+        ModBlocks.init(modEventBus);
     }
 
 }
