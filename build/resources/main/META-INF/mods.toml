@@ -1,0 +1,31 @@
+# Mod Loading Info
+modLoader="javafml"
+loaderVersion="[47,)"
+
+# Instrumental Config
+license="MIT"
+
+[[mods]]
+modId="trees_structures_enhanced"
+version="1"
+displayName="Trees and Structures Enhanced"
+logoFile="trees_structures_enhanced.png"
+credits="Made by Timeship Modding"
+authors="TardisEngineer"
+description='''WIP'''
+
+# Dependency for Forge
+[[dependencies.trees_structures_enhanced]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+# Dependency for Minecraft
+[[dependencies.trees_structures_enhanced]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,31 @@
+# Mod Loading Info
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+
+# Instrumental Config
+license="${mod_license}"
+
+[[mods]]
+modId="trees_structures_enhanced"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="trees_structures_enhanced.png"
+credits="${mod_credits}"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+# Dependency for Forge
+[[dependencies.trees_structures_enhanced]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+# Dependency for Minecraft
+[[dependencies.trees_structures_enhanced]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
