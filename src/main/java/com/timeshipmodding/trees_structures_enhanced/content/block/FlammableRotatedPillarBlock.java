@@ -1,4 +1,4 @@
-package com.timeshipmodding.trees_structures_enhanced.block;
+package com.timeshipmodding.trees_structures_enhanced.content.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

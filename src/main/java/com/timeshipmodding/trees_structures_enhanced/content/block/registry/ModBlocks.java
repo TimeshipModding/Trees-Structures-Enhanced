@@ -1,13 +1,9 @@
-package com.timeshipmodding.trees_structures_enhanced.block.registry;
+package com.timeshipmodding.trees_structures_enhanced.content.block.registry;
 
 import com.timeshipmodding.trees_structures_enhanced.TreeStructuresEnhanced;
-import com.timeshipmodding.trees_structures_enhanced.block.FlammableRotatedPillarBlock;
-import net.minecraft.core.Direction;
-import net.minecraft.util.valueproviders.UniformInt;
+import com.timeshipmodding.trees_structures_enhanced.content.block.FlammableRotatedPillarBlock;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
